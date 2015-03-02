@@ -15,7 +15,6 @@
 		FC0893D01AA41527007E1FCF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0893CE1AA41527007E1FCF /* LaunchScreen.xib */; };
 		FC0893DC1AA41527007E1FCF /* QGLLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0893DB1AA41527007E1FCF /* QGLLayoutTests.m */; };
 		FC0893E61AA41543007E1FCF /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC0893E51AA41543007E1FCF /* Data.plist */; };
-		FC0893E91AA44459007E1FCF /* QGLWeakView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0893E81AA44459007E1FCF /* QGLWeakView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,8 +42,6 @@
 		FC0893DA1AA41527007E1FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC0893DB1AA41527007E1FCF /* QGLLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QGLLayoutTests.m; sourceTree = "<group>"; };
 		FC0893E51AA41543007E1FCF /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
-		FC0893E71AA44459007E1FCF /* QGLWeakView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGLWeakView.h; sourceTree = "<group>"; };
-		FC0893E81AA44459007E1FCF /* QGLWeakView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGLWeakView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +91,6 @@
 				FC0893CC1AA41527007E1FCF /* Images.xcassets */,
 				FC0893CE1AA41527007E1FCF /* LaunchScreen.xib */,
 				FC0893BF1AA41527007E1FCF /* Supporting Files */,
-				FC0893E71AA44459007E1FCF /* QGLWeakView.h */,
-				FC0893E81AA44459007E1FCF /* QGLWeakView.m */,
 			);
 			path = QGLLayout;
 			sourceTree = "<group>";
@@ -231,7 +226,6 @@
 				FC0893C81AA41527007E1FCF /* ViewController.m in Sources */,
 				FC0893C51AA41527007E1FCF /* AppDelegate.m in Sources */,
 				FC0893C21AA41527007E1FCF /* main.m in Sources */,
-				FC0893E91AA44459007E1FCF /* QGLWeakView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
