@@ -15,6 +15,10 @@
 		FC0893D01AA41527007E1FCF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0893CE1AA41527007E1FCF /* LaunchScreen.xib */; };
 		FC0893DC1AA41527007E1FCF /* QGLLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0893DB1AA41527007E1FCF /* QGLLayoutTests.m */; };
 		FC0893E61AA41543007E1FCF /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC0893E51AA41543007E1FCF /* Data.plist */; };
+		FCC80AB21AA7F682007A74FB /* TheTagCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC80AB11AA7F682007A74FB /* TheTagCellViewController.m */; };
+		FCC80AB61AA7F6E2007A74FB /* QGLTagViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC80AB41AA7F6E2007A74FB /* QGLTagViewCell.m */; };
+		FCC80AB71AA7F6E2007A74FB /* QGLTagViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCC80AB51AA7F6E2007A74FB /* QGLTagViewCell.xib */; };
+		FCC80ABA1AA7FBDC007A74FB /* QGLTagLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC80AB91AA7FBDC007A74FB /* QGLTagLayoutView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,13 @@
 		FC0893DA1AA41527007E1FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC0893DB1AA41527007E1FCF /* QGLLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QGLLayoutTests.m; sourceTree = "<group>"; };
 		FC0893E51AA41543007E1FCF /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
+		FCC80AB01AA7F682007A74FB /* TheTagCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheTagCellViewController.h; sourceTree = "<group>"; };
+		FCC80AB11AA7F682007A74FB /* TheTagCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheTagCellViewController.m; sourceTree = "<group>"; };
+		FCC80AB31AA7F6E2007A74FB /* QGLTagViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGLTagViewCell.h; sourceTree = "<group>"; };
+		FCC80AB41AA7F6E2007A74FB /* QGLTagViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGLTagViewCell.m; sourceTree = "<group>"; };
+		FCC80AB51AA7F6E2007A74FB /* QGLTagViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QGLTagViewCell.xib; sourceTree = "<group>"; };
+		FCC80AB81AA7FBDC007A74FB /* QGLTagLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGLTagLayoutView.h; sourceTree = "<group>"; };
+		FCC80AB91AA7FBDC007A74FB /* QGLTagLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGLTagLayoutView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +98,13 @@
 				FC0893C41AA41527007E1FCF /* AppDelegate.m */,
 				FC0893C61AA41527007E1FCF /* ViewController.h */,
 				FC0893C71AA41527007E1FCF /* ViewController.m */,
+				FCC80AB81AA7FBDC007A74FB /* QGLTagLayoutView.h */,
+				FCC80AB91AA7FBDC007A74FB /* QGLTagLayoutView.m */,
+				FCC80AB01AA7F682007A74FB /* TheTagCellViewController.h */,
+				FCC80AB11AA7F682007A74FB /* TheTagCellViewController.m */,
+				FCC80AB31AA7F6E2007A74FB /* QGLTagViewCell.h */,
+				FCC80AB41AA7F6E2007A74FB /* QGLTagViewCell.m */,
+				FCC80AB51AA7F6E2007A74FB /* QGLTagViewCell.xib */,
 				FC0893C91AA41527007E1FCF /* Main.storyboard */,
 				FC0893CC1AA41527007E1FCF /* Images.xcassets */,
 				FC0893CE1AA41527007E1FCF /* LaunchScreen.xib */,
@@ -203,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC0893CB1AA41527007E1FCF /* Main.storyboard in Resources */,
+				FCC80AB71AA7F6E2007A74FB /* QGLTagViewCell.xib in Resources */,
 				FC0893D01AA41527007E1FCF /* LaunchScreen.xib in Resources */,
 				FC0893E61AA41543007E1FCF /* Data.plist in Resources */,
 				FC0893CD1AA41527007E1FCF /* Images.xcassets in Resources */,
@@ -224,7 +243,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC0893C81AA41527007E1FCF /* ViewController.m in Sources */,
+				FCC80AB21AA7F682007A74FB /* TheTagCellViewController.m in Sources */,
 				FC0893C51AA41527007E1FCF /* AppDelegate.m in Sources */,
+				FCC80AB61AA7F6E2007A74FB /* QGLTagViewCell.m in Sources */,
+				FCC80ABA1AA7FBDC007A74FB /* QGLTagLayoutView.m in Sources */,
 				FC0893C21AA41527007E1FCF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +438,7 @@
 				FC0893E11AA41527007E1FCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC0893E21AA41527007E1FCF /* Build configuration list for PBXNativeTarget "QGLLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +447,7 @@
 				FC0893E41AA41527007E1FCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

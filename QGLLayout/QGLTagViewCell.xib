@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="160" id="KGk-i7-Jjw" customClass="QGLTagViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="160"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="选择能代表群个性的标签（可多选）" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yLx-La-cL8">
+                        <rect key="frame" x="15" y="10" width="297" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="jYd-wT-8Wl"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                        <color key="textColor" red="0.32549019607843138" green="0.32549019607843138" blue="0.32549019607843138" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mhR-Uh-PCU" customClass="QGLTagLayoutView">
+                        <rect key="frame" x="15" y="40" width="290" height="39.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="dCP-GA-6Mf"/>
+                        </constraints>
+                    </view>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="添加标签" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="H61-fd-6B1">
+                        <rect key="frame" x="15" y="94" width="275" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="agd-ep-xQu"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                        <connections>
+                            <outlet property="delegate" destination="KGk-i7-Jjw" id="JML-6h-cXp"/>
+                        </connections>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="yLx-La-cL8" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="2" id="0hp-2D-6km"/>
+                    <constraint firstAttribute="trailing" secondItem="mhR-Uh-PCU" secondAttribute="trailing" constant="15" id="2EL-Dn-0sO"/>
+                    <constraint firstAttribute="trailing" secondItem="H61-fd-6B1" secondAttribute="trailing" constant="30" id="5Gf-Pb-qgc"/>
+                    <constraint firstItem="H61-fd-6B1" firstAttribute="top" secondItem="mhR-Uh-PCU" secondAttribute="bottom" constant="15" id="H3d-tf-hGM"/>
+                    <constraint firstItem="yLx-La-cL8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="Mr8-OG-6LH"/>
+                    <constraint firstItem="mhR-Uh-PCU" firstAttribute="top" secondItem="yLx-La-cL8" secondAttribute="bottom" constant="15" id="Rcw-sy-O4v"/>
+                    <constraint firstAttribute="bottom" secondItem="H61-fd-6B1" secondAttribute="bottom" constant="25" id="RvL-Be-61p"/>
+                    <constraint firstItem="H61-fd-6B1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="7" id="YSk-Ai-y7z"/>
+                    <constraint firstItem="yLx-La-cL8" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="x9C-Js-f4L"/>
+                    <constraint firstItem="mhR-Uh-PCU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="7" id="y1T-a6-nSz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="addTagTextField" destination="H61-fd-6B1" id="A4E-JT-5Bc"/>
+                <outlet property="tagView" destination="mhR-Uh-PCU" id="aYC-SD-Bu8"/>
+            </connections>
+            <point key="canvasLocation" x="291" y="465"/>
+        </tableViewCell>
+    </objects>
+</document>
